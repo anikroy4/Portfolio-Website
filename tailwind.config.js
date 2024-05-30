@@ -9,6 +9,9 @@ export default {
       spacing: {
         'container': '[1920px]',
       },
+      fontFamily: {
+        'geo': 'Georama',
+      },
     },
   },
   plugins: [],

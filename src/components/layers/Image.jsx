@@ -2,15 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-const Image = ({src,alt,href,className}) => {
+const Image = ({href, src, alt, className}) => {
+    
   return (
-    <>
-      <Link to={href}>
-          <picture>
-                 <img className={className} src={src} alt={alt} />
-          </picture>
-      </Link>
-    </>
+      <>
+          <a to={href}>
+             <picture>
+                 <img src={src} alt={alt} className={ ` inline-block w-full ${className} ` }/>
+                </picture>
+        </a>
+      </>
+
   )
 }
 
