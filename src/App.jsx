@@ -1,6 +1,7 @@
 // import React from "react";
 // import { Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
  import './App.css';
+import Hero from './components/sections/Hero';
  import Navbar from "./components/sections/Navbar"
 // const router = createBrowserRouter(
 //   createRoutesFromElements(
@@ -45,6 +46,7 @@ const App = () => {
   return ( 
    <>
     <Navbar/>
+    <Hero />
    </>
   )
 }
