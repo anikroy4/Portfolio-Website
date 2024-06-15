@@ -43,6 +43,7 @@ import Hero from './components/sections/Hero';
 
 import React from 'react'
 import Skills from './components/sections/Skills';
+import Education from './components/sections/Education';
 
 const App = () => {
   return ( 
@@ -51,6 +52,7 @@ const App = () => {
     <Hero />
     <About />
     <Skills/>
+    <Education />
    </>
   )
 }

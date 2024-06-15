@@ -10,15 +10,16 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <Container className="bg-[#0F1624] flex items-center justify-between px-[129px] py-[64px]">
+        <Container className="bg-[#0F1624] flex items-center justify-between  py-[70px]">
           <div className=' items-center '>
              <Image href='/' src="../../../../src/assets/Logo.png" alt="" /> 
           </div>
           <List className=" gap-x-8">
             <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="Home" />
-            <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="About Me" />
+            <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="About" />
             <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="Education" />
-            <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="Project" />
+            <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="Skills" />
+            <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="Projects" />
             <ListItem className="text-white hover:text-[#12F7D6] font-geo font-normal text-2xl " listInnerItem="Contact" />
 
           </List>

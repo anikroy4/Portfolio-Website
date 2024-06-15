@@ -5,7 +5,7 @@ import Container from '../layers/Container'
 const About = () => {
   return (
     <>
-        <Container className="bg-[#0F1624] max-w-container mx-auto py-[129px] px-[129px] font-geo text-white">
+        <Container className="bg-[#0F1624] max-w-container mx-auto font-geo text-white py-[129px]">
             <div className=" ">
                 <h2 className='inline font-semibold text-[32px] px-[40px] py-4 rounded-tl-[16px] rounded-br-[30px] border-4 border-[#12F7D6] '>About Me</h2>
                 <p className='mt-[98px] mb-6 text-xl'>
