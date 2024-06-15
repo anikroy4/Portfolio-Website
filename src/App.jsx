@@ -1,6 +1,7 @@
 // import React from "react";
 // import { Route, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
  import './App.css';
+import About from './components/sections/About';
 import Hero from './components/sections/Hero';
  import Navbar from "./components/sections/Navbar"
 // const router = createBrowserRouter(
@@ -41,12 +42,15 @@ import Hero from './components/sections/Hero';
 // }
 
 import React from 'react'
+import Skills from './components/sections/Skills';
 
 const App = () => {
   return ( 
    <>
     <Navbar/>
     <Hero />
+    <About />
+    <Skills/>
    </>
   )
 }

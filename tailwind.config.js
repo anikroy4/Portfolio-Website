@@ -12,6 +12,10 @@ export default {
       fontFamily: {
         'geo': 'Georama',
       },
+      backgroundImage: {
+        'bgimage': "url('/src/assets/Skills.jpg')",
+      
+      }
     },
   },
   plugins: [],
