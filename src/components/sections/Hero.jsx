@@ -7,7 +7,7 @@ const Hero = () => {
       <Container className="bg-[#0F1624] max-w-container mx-auto py- ">
         <div className='flex justify-between'>
             <div className="left w-1/2 font-geo">
-                <img src="../../../../src/assets/Hero.png" alt="" />
+                <img src="../../../../src/assets/Hero.png" alt="Hero.png" />
             </div>
             <div className="w-1/2 font-geo 
             my-8 items-center pb-[70px]">

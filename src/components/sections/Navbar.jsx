@@ -3,7 +3,7 @@ import Container from '../layers/Container'
 import Image from '../layers/Image'
 import List from '../layers/List'
 import ListItem from '../layers/ListItem'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 
 const Navbar = () => {
@@ -28,11 +28,11 @@ const Navbar = () => {
             <a href="https://github.com/anikroy4" className='text-white' >
             <FaGithub />
             </a>
-            <a href="" className='text-white '>
+            <a href="https://www.linkedin.com/in/anik-roy-bd/" className='text-white '>
             <FaLinkedin  />
             </a>
-            <a href="" className='text-white '>
-            <FaLinkedin  />
+            <a href="https://www.facebook.com/anikroy1009/" className='text-white '>
+            <FaFacebook  />
             </a>
           </div>
         </Container>
