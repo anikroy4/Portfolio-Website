@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Container from '../layers/Container'
 import Image from '../layers/Image'
@@ -5,11 +6,11 @@ import Image from '../layers/Image'
 const Footer = () => {
   return (
     <footer className='bg-[#0F1624]'>
-      <Container className="flex justify-between items-center py-20 px-20">
-        <div className=' items-center '>
+      <Container className="flex items-center justify-between px-20 py-20">
+        <div className='items-center '>
             <Image href='/' src="../../../../src/assets/Logo.png" alt="" /> 
         </div>
-        <div className='flex gap-x-14 text-center font-geo text-white text-xl'>
+        <div className='flex text-xl text-center text-white gap-x-14 font-geo'>
           <div>
             <h3>Projects</h3>
             </div>

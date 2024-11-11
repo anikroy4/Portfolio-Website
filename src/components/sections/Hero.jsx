@@ -1,4 +1,5 @@
-import React from 'react'
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 import Container from '../layers/Container'
 
 const Hero = () => {
@@ -6,7 +7,7 @@ const Hero = () => {
     <>
       <Container className="bg-[#0F1624] max-w-container mx-auto py- ">
         <div className='flex justify-between'>
-            <div className="left w-1/2 font-geo">
+            <div className="w-1/2 left font-geo">
                 <img src="../../../../src/assets/Hero.png" alt="Hero.png" />
             </div>
             <div className="w-1/2 font-geo 
